@@ -1,0 +1,36 @@
+@import '../utils/colors'
+
+// Breakpoint for navigation text to collapse.
+@media (max-width: 1187px)
+  .mobile-menu-toggle
+    display: block
+    position: absolute
+    right: 0px
+    top: -15px
+    font-size: 28px
+    color: $white
+
+  nav
+    display: none
+
+  .open
+    nav
+      display: block
+
+      li
+        width: 100%
+
+      .dropdown-menu
+        width: 100%
+        position: relative
+
+// Phone and tablet breakpoint.
+@media (max-width: 414px)
+  .navbar
+    nav
+      margin-left: 75px
+
+      ul
+        li
+          a
+            font-size: 16px
