@@ -1,0 +1,48 @@
+@import '../../utils/colors'
+
+// Tablet breakpoint
+@media (max-width: 1024px)
+  .home-page
+    #leader
+      h3
+        font-size: 28px
+
+@media (max-width: 768px)
+  .home-page
+    #leader
+      h3
+        font-size: 20px
+        padding-top: 1.5em
+
+    #testimonial
+      .left
+        width: 100%
+        margin: 15px 0
+
+        img
+          width: 100%
+
+// PHone breakpoint
+@media (max-width: 736px)
+  .home-page
+    div
+      &.left
+        width: 100%
+
+    #testimonial
+      .left
+        width: 100%
+        margin: 15px 0
+
+@media (max-width: 414px)
+  .home-page
+    div
+      &.left
+        width: 100%
+
+        img
+          width: 100px
+
+    #leader
+      h3
+        padding-left: 6.75em
