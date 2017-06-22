@@ -1,9 +1,11 @@
 @import './utils/colors';
-@import './utils/default';
 @import './utils/fonts';
+@import './utils/default';
+@import './utils/buttons';
 
 @import './navbar/styles';
 @import './hero/styles';
 @import './footer/styles';
 
 @import './content/home-page/styles';
+@import './content/instructor/styles';

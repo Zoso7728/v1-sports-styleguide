@@ -2,6 +2,15 @@ body
   margin: 0
   padding: 0
 
+section
+  margin: 50px 0
+
+  h2
+    color: $black
+    text-align: center
+    font-size: 2em
+    margin-bottom: 50px
+
 .container
   max-width: 1180px
   margin: 0 auto
@@ -26,3 +35,41 @@ body
 
 .basic-section
   padding: 30px 0
+
+.white
+  background-color: $white
+
+.lightgrey
+  background-color: $lightgrey
+
+.cards
+  .left
+    position: relative
+    width: 30%
+    min-height: 425px
+    margin: 15px
+    padding: 15px
+
+  .right
+    strong
+      position: absolute
+      right: 12px
+      bottom: 18px
+      text-align: center
+
+// Tablet breakpoint
+@media (max-width: 768px)
+  .cards
+    .left
+      width: 100%
+      margin: 15px 0
+
+      img
+        width: 100%
+
+// PHone breakpoint
+@media (max-width: 736px)
+  .cards
+    .left
+      width: 100%
+      margin: 15px 0
