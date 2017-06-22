@@ -14,6 +14,9 @@
         font-size: 20px
         padding-top: 1.5em
 
+      .left
+        padding-right: 0
+
 // PHone breakpoint
 @media (max-width: 736px)
   .home-page
@@ -23,13 +26,12 @@
 
 @media (max-width: 414px)
   .home-page
-    div
-      &.left
+    #leader
+      h3
+        padding-left: 6.75em
+
+      .left
         width: 100%
 
         img
           width: 100px
-
-    #leader
-      h3
-        padding-left: 6.75em
